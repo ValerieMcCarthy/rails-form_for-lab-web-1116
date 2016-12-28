@@ -1,0 +1,17 @@
+<h1> School Class Edit Form</h1>
+
+<p></p>
+<p></p>
+
+
+<H2>Edit Information:</H2>
+
+<%= form_for(@school_class) do |f| %>
+  <label>School Class name:</label><br>
+  <%= f.text_field :title %><br>
+
+  <label>Class room number:</label><br>
+  <%= f.text_area :room_number %><br>
+
+  <%= f.submit %>
+<% end %>

@@ -1,0 +1,12 @@
+<center><h1>Students Index Page: Show All Students</h1></center>
+<p></p>
+
+<% @students.each do |student| %>
+	<div><%= student.first_name %> <%= student.last_name %>
+	<% end %>
+
+	<p></p>
+
+	<center><a href = '/students/new'>Click here to add new student</a></center>
+
+

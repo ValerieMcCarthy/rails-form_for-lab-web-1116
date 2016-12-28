@@ -1,0 +1,9 @@
+
+<center><h1>School Classes Index Page: Show All School Classes</h1></center>
+<p></p>
+
+<% @school_classes.each do |school_class| %>
+	<div><%= school_class.title %>, Room Number: <%= school_class.room_number %>
+	<% end %>
+
+
